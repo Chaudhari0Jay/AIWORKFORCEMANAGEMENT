@@ -15,7 +15,7 @@ from database.database import init_database
 
 # Page configuration
 st.set_page_config(
-    page_title="Workforce Distribution AI",
+    page_title="Workforce Management AI",
     page_icon="👥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -628,3 +628,4 @@ def estimate_salary_for_role(employee_data, role):
 
 if __name__ == "__main__":
     main()
+
