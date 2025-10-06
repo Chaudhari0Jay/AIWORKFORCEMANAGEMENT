@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Workforce Distribution AI", layout="wide")
+st.set_page_config(page_title="Workforce Management AI", layout="wide")
 
 # Load Models and Tools
 leave_model = joblib.load("model.pkl")
@@ -75,3 +75,4 @@ ax.set_title("Avg Annual Wage Growth vs. Experience")
 ax.set_xlabel("Experience (Years)")
 ax.set_ylabel("Annual Wage Growth")
 st.pyplot(fig)
+
