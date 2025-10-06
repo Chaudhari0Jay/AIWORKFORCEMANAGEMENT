@@ -62,7 +62,7 @@ def load_models():
         return None
 
 def main():
-    st.markdown('<h1 class="main-header">👥 Workforce Distribution AI</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">👥 Workforce Management AI</h1>', unsafe_allow_html=True)
     
     # Initialize database and models
     if 'initialized' not in st.session_state:
@@ -628,4 +628,5 @@ def estimate_salary_for_role(employee_data, role):
 
 if __name__ == "__main__":
     main()
+
 
